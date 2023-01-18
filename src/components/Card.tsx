@@ -1,5 +1,6 @@
 import Datetime from "./Datetime";
 import type { Frontmatter } from "src/types";
+import { SITE } from "./../config";
 
 export interface Props {
   href?: string;
@@ -17,7 +18,7 @@ const styles = {
 export default function Card({ href, post, secHeading = true }: Props) {
   return (
     <li className={styles.cardContainer}>
-      <a href={href} className={styles.titleLink}>
+      <a href={SITE.base + href} className={styles.titleLink}>
         {secHeading ? (
           <h2 className={styles.titleHeading}>{post.title}</h2>
         ) : (
