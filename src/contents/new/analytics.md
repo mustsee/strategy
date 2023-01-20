@@ -3,7 +3,7 @@ author: Thomas
 datetime: 2023-01-20T16:00:00Z
 title: Analytics
 slug: analytics
-featured: false
+featured: true
 draft: false
 tags:
   - docs
