@@ -44,7 +44,13 @@ const { activeNav } = Astro.props;
             <div id="third-line"></div>
           </div>
         </button>
+
         <ul id="menu-items" class="display-none sm:flex">
+          <li>
+            <a href="https://trello.com/b/fwmlC1kL/psh" class="external-link">
+              Trello</a
+            >
+          </li>
           <li>
             <a
               href={SITE.base + "/general"}
@@ -158,6 +164,10 @@ const { activeNav } = Astro.props;
   }
   nav a.active svg {
     @apply fill-skin-accent;
+  }
+
+  nav .external-link {
+    color: blue;
   }
 
   nav button {
