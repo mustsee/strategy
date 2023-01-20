@@ -11,6 +11,8 @@ Here are the main topics we need to follow and set goals for.
 - content strategy/blog
 - socials
 - analytics
+- branding
+- SEO
 
 This list will evolve as we gather more informations and topic interests. Each topic will have a thorougful description - in form of a post - on what is done, what is being done and what are the expectations for the future.
 

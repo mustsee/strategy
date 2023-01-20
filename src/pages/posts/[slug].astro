@@ -28,7 +28,7 @@ type PagePaths = {
 }[];
 
 export async function getStaticPaths() {
-  const posts = await Astro.glob<Frontmatter>("../../contents/**/*.md");
+  const posts = await Astro.glob<Frontmatter>("../../contents/new/**/*.md");
 
   const filteredPosts = posts.filter(({ frontmatter }) => !frontmatter.draft);
 
