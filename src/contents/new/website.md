@@ -3,7 +3,7 @@ author: Thomas
 datetime: 2023-01-22T22:00:00Z
 title: Website
 slug: website
-featured: true
+featured: false
 draft: false
 tags:
   - docs
