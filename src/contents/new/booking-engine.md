@@ -24,7 +24,7 @@ We considered other booking engine options, like [mews](https://www.mews.com/en)
 
 ## Objectives
 
-- Translate the beds24 booking page (french and spanish).
+- Translate the beds24 booking page (french and spanish). Actually it looks like we can just add the wanted languages in the settings.
 - Change colors/UI on the booking page, make it less childish by removing colors (blue and yellow), png logo and follow new design guidelines.
 - Add information about payment on the checkout page (we don't know if/when our credit card will be debited).
 - Implement a booking widget on the website: by allowing to preselect dates it will enhance the user flow.
